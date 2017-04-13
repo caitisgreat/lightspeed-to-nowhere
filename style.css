@@ -1,0 +1,355 @@
+@font-face {
+    font-family: 'BerlinSansFBRegular';
+    src: url('style/berlinsans/brlnsr-webfont.eot');
+    src: url('style/berlinsans/brlnsr-webfont.eot?iefix') format('eot'),
+         url('style/berlinsans/brlnsr-webfont.woff') format('woff'),
+         url('style/berlinsans/brlnsr-webfont.ttf') format('truetype'),
+         url('style/berlinsans/brlnsr-webfont.svg#webfontbUjuNVFO') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'BerlinSansFBBold';
+    src: url('style/berlinsans/brlnsb-webfont.eot');
+    src: url('style/berlinsans/brlnsb-webfont.eot?iefix') format('eot'),
+         url('style/berlinsans/brlnsb-webfont.woff') format('woff'),
+         url('style/berlinsans/brlnsb-webfont.ttf') format('truetype'),
+         url('style/berlinsans/brlnsb-webfont.svg#webfontl1MLDRmm') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'BerlinSansFBDemiBold';
+    src: url('style/berlinsans/brlnsdb-webfont.eot');
+    src: url('style/berlinsans/brlnsdb-webfont.eot?iefix') format('eot'),
+         url('style/berlinsans/brlnsdb-webfont.woff') format('woff'),
+         url('style/berlinsans/brlnsdb-webfont.ttf') format('truetype'),
+         url('style/berlinsans/brlnsdb-webfont.svg#webfont2xosvKBV') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+HTML {
+	background-color: #002A47;
+	width: 100%;
+	height: 100%;
+	min-width: 1263px;	
+}
+
+BODY {
+	position: relative;
+	margin: 0px auto 50px auto;
+	padding-bottom: 10px;
+	background-color: #0060A3;
+	width:1000px;
+	border-radius: 0px 0px 35px 35px;
+	-moz-border-radius: 0px 0px 35px 35px;
+	-webkit-border-radius: 0px 0px 35px 35px;
+}
+
+IMG { border-style : none; }
+
+.wingRight
+	{
+		position: absolute;
+		background-image: url('images/right_wing.png');
+		background-repeat: no-repeat;
+		right:-284px;
+		width:284px;
+		height:986px;
+	}
+
+.wingLeft
+	{
+		position: absolute;
+		background-image: url('images/left_wing.png');
+		background-repeat: no-repeat;
+		left:-284px;
+		width:284px;
+		height:986px;
+	}
+
+.banner {
+	position: fixed;
+	margin-left: 125px;
+	margin-right: 125px;
+	width: 750px;
+	height: 35px;
+	background-color: #52D017;
+	border-width: 0px 1px 1px 1px;
+	border-style: solid; 
+	border-color: #000000;
+	border-radius: 0px 0px 35px 35px;
+	-moz-border-radius: 0px 0px 35px 35px;
+	-webkit-border-radius: 0px 0px 35px 35px;
+	z-index: 999;
+	opacity: 0.8;
+}
+
+.banner	P {
+	margin: 5px 0px 5px 0px;
+	text-align: center;
+	color: #000000;
+	font-family: Verdana, Arial, sans-serif;
+	font-size: 90%;
+}
+	
+/* Header */
+
+#Header {
+	position: relative;
+	width: 1000px;
+	height: 247px;
+}
+
+#Header
+	P {
+		position: absolute;
+		width: 150px;
+		margin: 0px 18px;
+		top: 10px;
+		left: 0px;
+		text-align: center;
+		border-bottom: 2px;
+		border-color: #FFFFFF;
+		border-bottom-style: solid;
+		color: #ffffff;
+		font-family:  'BerlinSansFBDemiBold',Arial, sans-serif;
+		z-index:1;
+}
+
+#Facebook { background-image: url('images/social/facebook.png'); background-repeat: no-repeat; }
+#DeviantArt { background-image: url('images/social/deviant_art.png'); background-repeat: no-repeat; }
+#RSSFeed { background-image: url('images/social/rss.png'); background-repeat: no-repeat; }
+#Twitter { background-image: url('images/social/twitter.png'); background-repeat: no-repeat;  }
+
+#LocMain { display: block; background-image: url('images/locations/main.png'); background-repeat: no-repeat; width: 108px; height: 81px; }
+#LocArchive { display: block; background-image: url('images/locations/archive.png'); background-repeat: no-repeat; width: 99px; height: 81px; }
+#LocShop { display: block; background-image: url('images/locations/shop.png'); background-repeat: no-repeat; width: 99px; height: 81px; }
+#LocForum { display: block; background-image: url('images/locations/forum.png'); background-repeat: no-repeat; width: 99px; height: 81px; }
+#LocAbout { display: block; background-image: url('images/locations/about.png'); background-repeat: no-repeat; width: 99px; height: 81px; }
+#LocLinks { display: block; background-image: url('images/locations/links.png'); background-repeat: no-repeat; width: 108px; height: 81px; }
+
+.icon {
+	display: block; 
+	width: 32px;
+	height: 32px;
+	padding: 2px;
+}
+	
+.logo {
+	display: block;
+	position: absolute;
+	width:181px;
+	height:150px;
+	top: 5px;
+	left: 12px;
+	background-image: url('images/logo.png');
+	background-repeat: no-repeat;
+}
+
+.leaderboard {
+	background-image: url('images/leaderboard_bgnd.png');
+	background-repeat: no-repeat;
+	position: absolute;
+	width: 728px;
+	height: 90px;
+	left: 205px;
+	top: 19px;	
+	padding: 12px 30px 12px 30px;
+}
+
+.socialWrap {
+	position: absolute;
+	top:165px;
+	left:49px;
+	width:186px;
+	height:82px;
+	background-image: url('images/subscribe_bgnd.png'); 
+	background-repeat: no-repeat;
+}
+
+.social {
+	position: absolute;
+	top:34px;
+	left: 23px;
+	margin: 0px;
+	padding: 0px;
+}
+
+.locations {
+	position: absolute;
+	top: 165px;
+	left: 294px;
+	height: 82px;
+	width: 612px;
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+}
+
+#Header
+	LI {
+		position: relative;
+		display: inline;
+		padding:0px 0px 0px 0px;
+		float: left;
+}
+
+/* Body */
+
+.topwide
+{
+	position: relative;
+	border-radius: 35px;
+	-moz-border-radius: 35px;
+	-webkit-border-radius: 35px;
+	margin: 10px;
+	background-color: #9FB9C4;
+	width:980px;
+	color: #233440;
+	font-family: Verdana, Arial, sans-serif;
+	font-size: 90%;
+	box-shadow: rgba(0,0,0,0.6) 1px 7px 20px -2px;
+	-moz-box-shadow: rgba(0,0,0,0.6) 1px 10px 20px -2px;
+	-webkit-box-shadow: rgba(0,0,0,0.6) 1px 10px 20px -2px;
+}
+
+.container {
+	position: relative;
+	width: 760px;
+	margin: 10px 10px 0px 10px;
+	padding-top: 50px;
+	padding-bottom: 10px;
+	min-height:700px;
+	background-color: #003895;
+	border-radius: 35px;
+	-moz-border-radius: 35px;
+	-webkit-border-radius: 35px;
+	box-shadow: rgba(0,0,0,0.6) 0px 0px 20px 0px inset;
+	-moz-box-shadow: rgba(0,0,0,0.6) 0px 0px 20px 0px inset;
+	-webkit-box-shadow: rgba(0,0,0,0.6) 0px 0px 20px 0px inset;
+}
+
+.container h1 {
+	float: left;
+	margin: 0px 10px;
+	color: #FFFFFF;
+	font-family: 'BerlinSansFBDemiBold', Arial, sans-serif;
+}
+
+.skyscraper {
+	position: absolute;
+	top: 25px;
+	right: -220px;
+	width: 160px;
+	height: 600px;
+	padding: 51px 12px 51px 12px;
+	background-image: url('images/skyscraper_bgnd.png');
+	background-repeat: no-repeat;
+	margin: 0px 14px 0px 14px; 
+}
+
+.container hr {
+	float: left;
+	top:0px;
+	margin: 0px 9px;
+	width: 740px;
+	border-color: #FFFFFF;
+	border-style: solid;
+}	
+
+.container .top {
+	position: absolute;
+	top: 15px;
+	left: 15px;
+	margin: 0px;
+	color: #FFFFFF;
+	font-family: 'BerlinSansFBDemiBold', Arial, sans-serif;
+}
+
+.container P {
+	float: left;
+	width: 740px;
+	margin: 1em 10px 0px 10px;
+	color: #FFFFFF;
+	font-family: Verdana, Arial, sans-serif;
+	font-size: 90%;
+}
+
+#Archive .topwide {
+	height: 210px;
+	width: 780px;
+	padding: 0px 100px;
+}
+
+#Archive .navRight {
+	position:absolute;
+	top: 35px;
+	right: 15px;
+	height: 132px;
+	width: 64px;
+	background-image: url('images/cal_right.png');
+	background-repeat: no-repeat;
+}
+
+#Archive .navLeft {
+	position: absolute;
+	top:35px;
+	left: 15px;
+	height: 132px;
+	width: 64px;
+	background-image: url('images/cal_left.png');
+	background-repeat: no-repeat;
+}
+
+#Archive table {
+	height: auto;
+	width: 210px;
+	margin: 25px 14px;
+	padding-left: 0px;
+	padding-right: 0px;
+	float: left;
+}
+
+#Index .skyscraper {
+	top: 150px;
+}
+
+#Links .container .desc {
+	margin-top: 0px;
+	margin-bottom: 1em;
+}
+
+#Links .container A {
+	float: left;
+	width: 468px;
+	height: 60px; 
+	margin: 10px 10px 0px 10px;
+}
+
+#UpUpDownDown { background-image: url('images/friends/upupdowndown.png'); background-repeat: no-repeat; }
+#DoctorCat { background-image: url('images/friends/doctorcatmd.png'); background-repeat: no-repeat; }
+
+#BannerSmall { margin: 5px 0px 0px 10px;  }
+#BannerMedium { margin: 10px 0px 0px 10px;  }
+#BannerLarge { margin: 10px 0px 0px 10px; padding-right: 272px; }
+
+/* Footer */
+
+#Footer {
+	position: absolute;
+	width: 800px;
+	margin: 10px 100px 0px 100px;
+	color: #FFFFFF;
+	text-align: center;
+	font-size: xx-small;
+	font-family: Verdana, Arial, sans-serif;
+}
+
+/* 'A' tags */
+
+a.loc:hover {
+	background-position: 0px -82px;
+}
